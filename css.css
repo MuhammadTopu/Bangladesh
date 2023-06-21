@@ -1,0 +1,34 @@
+#r{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    border: 2px black solid;
+    margin: 5%;
+    display: inline-block;
+
+}
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px black solid;
+    margin-left: 10em;
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 4em;
+    margin-right: 30%;}
+    body{
+        background-color: rgb(230, 212, 189);
+    }
+    a{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: darkred;
+    }
+    a:active{
+       text-decoration: line-through;
+       color: darkgreen;
+    }
